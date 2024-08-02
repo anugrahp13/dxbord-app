@@ -3,6 +3,7 @@ import Header from "./components/Elements/Header";
 import Sidebar from "./components/Elements/Sidebar";
 import Main from "./pages/Main";
 import Content from "./pages/Content";
+import Profile from "./components/Elements/Profile/Profile";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,6 +22,7 @@ function App() {
 
       <Main>
         <Content>Main Content</Content>
+        <Profile />
       </Main>
     </div>
   );

@@ -1,4 +1,3 @@
-import React from 'react'
 import { links } from '../../../store';
 import LinkItem from './LinkItem';
 

@@ -1,7 +1,7 @@
-import React from 'react'
-
 export default function Content({ children }) {
   return (
-    <div>{ children }</div>
+    <div className="flex-1 flex flex-col gap-5">
+      { children }
+    </div>
   )
 }
